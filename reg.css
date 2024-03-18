@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(back3.jpg);
+    background-size: cover;
+}
+h3{
+    color:azure;
+    font-style: italic;
+    font-size:1.5cm;
+    margin-left:0%;
+}
+.container{
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.card{
+    color: rgb(251, 11, 147);
+    padding: 50px 40px 50px 40px;
+    background: rgb(95, 176, 162);
+    border-radius:10px ;
+    box-shadow: 0px 0px 40px 0px  rgb(41, 224, 139);
+}
+#name{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: black;
+}
+#button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background:black;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    margin-left: 65px;
+}
+#button:hover{
+    background-color: bisque;
+    color: black;
+    cursor:pointer;
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 115px;
+    margin-top:-40px; ;
+}
+
+
+
+
+
+
+
+

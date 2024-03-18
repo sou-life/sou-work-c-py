@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:url(back6.webp);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color:aliceblue;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  background-image:url(admin.jpg);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fbf9f9;
+}
+
+input[type="text"],
+input[type="file"] {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color:#333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #e8581a;
+}
+
+.error {
+  color: whitesmoke;
+  margin-top: 10px;
+  font-size: 14px;
+}

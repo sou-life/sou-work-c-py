@@ -1,0 +1,141 @@
+body {
+	background-image: url(round.jpg );
+	margin: 0px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-size: cover;
+    color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.navigation-bar {
+	height: auto;
+	width: auto;
+	background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0));
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 5%;
+	padding-right: 5%;
+	transition: all ease-in-out 1s; 
+}
+.navigation-bar > div {
+	display: inline-block;
+}
+@keyframes rotating {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.website-logo img {
+	height: 50px;
+	width: 60px;
+	border-radius: 100%;
+	animation-name: rotating;
+	animation-timing-function: ease-in-out;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+.website-name h2 {
+	color:whitesmoke;
+}
+.title-combo > div {
+	vertical-align: middle;
+	display: inline-block;
+}
+@keyframes flexible {
+	
+	75% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scaleX(1);
+	}
+}
+.favs {
+	animation-name: flexible;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+	perspective: 10000px;
+	transform-style: preserve-3d;
+	animation-iteration-count: infinite;
+}
+.search-bar {
+	width: 20%;
+	position: relative;
+}
+.search-bar input {
+	width: 100%;
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 18px;
+	border: none;
+	padding: 5px;
+	font-weight: 500;
+	text-align: center;
+	transition: all ease-in-out 0.1s;
+    background-color: rgb(243, 243, 240);
+}
+.search-ico {
+	color: rgba(0, 0, 0, 0.5);
+}
+.mic-ico {
+	color: rgba(0, 0, 0, 0.5);
+}
+.search-bar > div:nth-child(1) {
+	display: inline-block;
+	position: absolute;
+	width: min-content;
+	left: 5%;
+	top: 10%;
+	transition: all ease-in-out 0.1s;
+}
+.search-bar > div:nth-child(3) {
+	display: inline-block;
+	position: absolute;
+	width: min-content;
+	right: 0%;
+	top: 10%;
+	transition: all ease-in-out 0.1s;
+}
+input:focus {
+	outline: none;
+}
+.card {
+	display: flex;
+	flex-direction:column;
+	transition: box-shadow ease-in-out 0.1s;
+	position:fixed;
+	padding: 100px 100px 100px 100px;
+    border-radius:14px ;
+}
+/* images in the cards of the latest release section */
+.card img {
+	width: 100%;
+	height: 100%;
+}
+h1{
+	color:white;
+	font-family:'Times New Roman', Times, serif;
+	margin-left: 3cm;
+	margin-top: 30px;
+	margin-bottom: 1cm;
+}
+  
+

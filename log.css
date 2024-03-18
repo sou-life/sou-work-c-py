@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(back2.jpg);
+    background-size: cover;
+}
+h1{
+    color: gold;
+    font-style: italic;
+    font-size:1.5cm;
+    left: 38%;
+    margin-top: 5%;
+}
+.container{
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.card{
+    color: rgb(251, 31, 11);
+    padding: 50px 40px 50px 40px;
+    background: rgb(41, 200, 184);
+    border-radius:14px ;
+    box-shadow: 0 0 65px 0  rgb(41, 224, 139);
+}
+#username{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(251, 31, 11);
+    padding: 6px;
+    margin-bottom: 20px;
+    color: black;
+}
+#password{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(251, 31, 11);
+    padding: 6px;
+    margin-bottom: 20px;
+    color: black;
+}
+#submit{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: rgb(251, 31, 11);
+    color: white;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+}
+#button:hover{
+    background-color: bisque;
+    color: black;
+    cursor:pointer;
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 105px;
+    margin-top:-40px; ;
+}

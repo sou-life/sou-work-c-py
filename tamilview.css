@@ -1,0 +1,45 @@
+.container {
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:first baseline;
+  align-items:normal;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.helo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+
+.col img {
+  max-width: 500px;
+}
+.co {
+  color:aliceblue;
+  align-items:self-start;
+
+}
+.coo{
+  color:aqua;
+  align-items:self-end;
+  margin-top: 1cm;
+}
+audio {
+  width:10cm;
+  align-items: flex-end;
+  margin-left:1cm;
+}
